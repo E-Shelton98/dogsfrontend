@@ -7,7 +7,7 @@ const Display = (props) => {
 		<div style={{ textAlign: 'center' }}>
 			{props.dogs.map((dog) => (
 				<article>
-					<img src={dog.img} />
+					<img src={dog.img} alt="" />
 					<h1>{dog.name}</h1>
 					<h3>{dog.age}</h3>
 					<button
